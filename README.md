@@ -90,19 +90,27 @@ Multi-Agent-AI-Operations-Platform/
 │   └── system_architecture.png
 └── README.md
 
-## Screenshots
+## 🖼️ Screenshots
 
-### Frontend User Interface
-![Frontend UI](screenshots/front_ui.png)
+### 🔹 Frontend User Interface
+![Frontend UI](assets/front_ui.png)
 
-### Problem Statement
-![Problem Statement](screenshots/problem_statement.png)
+---
 
-### Resolution Overview
-![Resolution Overview](screenshots/resolution_overview.png)
+### 🔹 Problem Statement
+![Problem Statement](assets/problem_statement.png)
 
-### Agent Workflow
-![Agent Workflow](screenshots/agent_workflow.png)
+---
 
-### System Architecture
-![System Architecture](screenshots/system_architecture.png)
+### 🔹 Resolution Overview
+![Resolution Overview](assets/resolution_overview.png)
+
+---
+
+### 🔹 Agent Workflow
+![Agent Workflow](assets/agent_workflow.png)
+
+---
+
+### 🔹 System Architecture
+![System Architecture](assets/system_architecture.png)
