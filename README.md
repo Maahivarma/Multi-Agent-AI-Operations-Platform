@@ -62,7 +62,7 @@ Each agent has a specific responsibility:
 - Modular core and component architecture  
 
 ---
-
+---md
 ## 📂 Project Structure
 
 ```text
@@ -114,3 +114,4 @@ Multi-Agent-AI-Operations-Platform/
 
 ### 🔹 System Architecture
 ![System Architecture](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/assets/system_architecture.png)
+---
