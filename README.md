@@ -88,7 +88,7 @@ Multi-Agent-AI-Operations-Platform/
 │   ├── agent_workflow.png
 │   └── system_architecture.png
 └── README.md
----
+```
 ## 🖼️ Screenshots
 
 ### 🔹 Frontend User Interface
