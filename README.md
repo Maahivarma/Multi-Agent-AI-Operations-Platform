@@ -81,8 +81,7 @@ Multi-Agent-AI-Operations-Platform/
 │   ├── core/
 │   └── components/
 <!-- screenshots section -->
----
-
+---<!-- Screenshots added below -->
 ## 🖼️ Screenshots
 
 ### 🔹 Frontend User Interface
