@@ -113,3 +113,49 @@ Multi-Agent-AI-Operations-Platform/
 
 ### 🔹 System Architecture
 ![System Architecture](assets/system_architecture.png)
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone or download the repository  
+2. Open the project folder  
+3. Double-click `start_demo.bat`  
+4. The application will launch in your browser  
+
+> No additional setup or installation required.
+
+---
+
+## 📈 Use Cases
+
+- Autonomous AI operations simulation  
+- Agent-based workflow orchestration  
+- Enterprise AI decision support systems  
+- Multi-agent coordination demonstrations  
+
+---
+
+## ⭐ Key Highlights
+
+- Modular multi-agent architecture  
+- Clear separation of agent responsibilities  
+- Scalable design for enterprise AI systems  
+- Visual demonstration of agent workflows  
+
+---
+
+## 🔮 Future Enhancements
+
+- Integration with Large Language Models (LLMs)  
+- Backend services for persistence and logging  
+- Real-time agent communication  
+- Cloud deployment and scalability  
+
+
+---
+
+## 👤 Author
+
+**Mahesh**  
+GitHub: https://github.com/Maahivarma
