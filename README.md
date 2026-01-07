@@ -90,27 +90,19 @@ Multi-Agent-AI-Operations-Platform/
 │   └── system_architecture.png
 └── README.md
 
-## 🖼️ Screenshots
+## Screenshots
 
-### 🔹 Frontend User Interface
-![Frontend UI](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/screenshots/front_ui.png)
+### Frontend User Interface
+![Frontend UI](screenshots/front_ui.png)
 
----
+### Problem Statement
+![Problem Statement](screenshots/problem_statement.png)
 
-### 🔹 Problem Statement
-![Problem Statement](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/screenshots/problem_statement.png)
+### Resolution Overview
+![Resolution Overview](screenshots/resolution_overview.png)
 
----
+### Agent Workflow
+![Agent Workflow](screenshots/agent_workflow.png)
 
-### 🔹 Resolution Overview
-![Resolution Overview](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/screenshots/resolution_overview.png)
-
----
-
-### 🔹 Agent Workflow
-![Agent Workflow](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/screenshots/agent_workflow.png)
-
----
-
-### 🔹 System Architecture
-![System Architecture](https://raw.githubusercontent.com/Maahivarma/Multi-Agent-AI-Operations-Platform/main/screenshots/system_architecture.png)
+### System Architecture
+![System Architecture](screenshots/system_architecture.png)
