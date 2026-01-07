@@ -1,0 +1,61 @@
+/* Existing styles... appending new ones */
+
+.agent-thought {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    border-left: 2px solid #475569;
+    padding-left: 0.5rem;
+}
+
+.agent-data {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.data-key {
+    color: #cbd5e1;
+}
+
+.data-val {
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.agent-rec {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #a7f3d0;
+}
+
+.loading-pulse {
+    font-size: 0.8rem;
+    color: #64748b;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}

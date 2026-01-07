@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COO.AI | COMMAND CENTER</title>
+    <link rel="stylesheet" href="css/cinematic_v3.css?v=1">
+</head>
+
+<body>
+    <div class="hero-bg"></div>
+    <div class="scan-overlay"></div>
+
+    <div id="app">
+        <header class="main-header">
+            <div class="logo">
+                <span style="color:var(--neon-cyan)">COO.AI</span> // PRIME_UNIT
+            </div>
+            <div class="status-indicator">
+                SYSTEM ONLINE
+            </div>
+        </header>
+
+        <main id="main-container">
+            <!-- Hero Section -->
+            <div class="hero-section">
+                <h1 class="hero-title">AUTONOMOUS <span class="gradient-text">OPERATIONS</span> CORE</h1>
+                <p class="hero-subtitle">INITIALIZE NEURAL LINK FOR STRATEGIC ANALYSIS</p>
+
+                <div class="input-container">
+                    <input type="text" id="business-problem-input"
+                        placeholder=">> ENTER COMMAND OR PROBLEM STATEMENT..." autocomplete="off">
+                    <button id="start-btn" class="action-btn">
+                        INITIALIZE
+                    </button>
+                </div>
+
+                <div class="api-key-section">
+                    <input type="password" id="api-key-input" placeholder="[OPTIONAL] GEMINI_API_KEY" class="api-input">
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- USING BUNDLE - WORKS ON FILE:// PROTOCOL -->
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>

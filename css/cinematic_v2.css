@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;600&display=swap');
+
+:root {
+    --neon-cyan: #00f3ff;
+    --neon-pink: #ff00ff;
+    --glass: rgba(0, 10, 20, 0.6);
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+/* === BACKGROUND === */
+.hero-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('../assets/robot_hero.png') no-repeat center center/cover;
+    animation: slowBreath 8s ease-in-out infinite alternate;
+}
+
+.scan-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+
+@keyframes slowBreath {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+/* === INITIAL STATE === */
+#main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    /* Bottom placement */
+    padding-bottom: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero-section {
+    width: 80%;
+    max-width: 800px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid var(--neon-cyan);
+}
+
+.hero-title {
+    font-family: 'Orbitron';
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px var(--neon-cyan);
+    margin: 0;
+}
+
+.hero-subtitle {
+    color: var(--neon-cyan);
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+#business-problem-input {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+#business-problem-input:focus {
+    outline: none;
+    border-color: var(--neon-cyan);
+    box-shadow: 0 0 30px var(--neon-cyan);
+}
+
+.action-btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    background: var(--neon-cyan);
+    color: #000;
+    font-family: 'Orbitron';
+    font-weight: 900;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px var(--neon-cyan);
+    transition: transform 0.2s;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+    background: #fff;
+}
+
+/* === ACTIVE HUD (Split View) === */
+.hud-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+}
+
+.hud-panel {
+    background: var(--glass);
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Left Panel */
+.left-panel {
+    width: 300px;
+    margin-top: 100px;
+    height: 60vh;
+    transform: perspective(1000px) rotateY(10deg);
+    transform-origin: left center;
+}
+
+/* Right Panel */
+.right-panel {
+    width: 400px;
+    margin-top: 50px;
+    height: 80vh;
+    transform: perspective(1000px) rotateY(-10deg);
+    transform-origin: right center;
+}
+
+/* Center Panel (Invisible, just spacing for robot) */
+.center-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.vis-stage {
+    margin-bottom: 50px;
+}
+
+.agent-avatar-lg {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border: 1px solid var(--neon-cyan);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Typography & Elements */
+.hud-header {
+    font-family: 'Orbitron';
+    color: var(--neon-cyan);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.term-row {
+    font-family: monospace;
+    color: #0f0;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.hud-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-header {
+    font-weight: bold;
+    color: var(--neon-cyan);
+}
+
+.analysis-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.main-header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.logo {
+    font-family: 'Orbitron';
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
