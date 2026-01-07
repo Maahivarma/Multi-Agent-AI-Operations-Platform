@@ -80,3 +80,30 @@ Multi-Agent-AI-Operations-Platform/
 │   ├── agents/
 │   ├── core/
 │   └── components/
+<!-- screenshots section -->
+---
+
+## 🖼️ Screenshots
+
+### 🔹 Frontend User Interface
+![Frontend UI](screenshots/front_ui.png)
+
+---
+
+### 🔹 Problem Statement
+![Problem Statement](screenshots/problem_statement.png)
+
+---
+
+### 🔹 Resolution Overview
+![Resolution Overview](screenshots/resolution_overview.png)
+
+---
+
+### 🔹 Agent Workflow
+![Agent Workflow](screenshots/agent_workflow.png)
+
+---
+
+### 🔹 System Architecture
+![System Architecture](screenshots/system_architecture.png)
